@@ -24,7 +24,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier:write": "npx prettier --write .",
-    "prettier:check": "npx prettier --check ."
+    "prettier:check": "npx prettier --check .",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +52,7 @@
     "eslint-plugin-n": "^15.2.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "husky": "^7.0.0"
   }
 }
